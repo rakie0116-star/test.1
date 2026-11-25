@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ff7eb6">
+<title>你容易吸引什么样的恋人｜趣味人格测试</title>
+<style>
+:root{--ink:#33243f;--muted:#76677f;--pink:#ff7eb6;--orange:#ffb36b;--yellow:#ffe47a;--blue:#8bd8ff;--purple:#b9a2ff;--green:#a9edc2;--paper:#fffdf9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;color:var(--ink);font-family:ui-rounded,"SF Pro Rounded","PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:radial-gradient(circle at 8% 10%,#ffe0ed 0,transparent 28%),radial-gradient(circle at 90% 16%,#dff5ff 0,transparent 26%),radial-gradient(circle at 80% 90%,#fff0c8 0,transparent 28%),#fff8f4}
+button{font:inherit;cursor:pointer;border:0}.shell{width:min(760px,calc(100% - 30px));margin:0 auto;padding:28px 0 56px}.topline{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;color:#8c7189;font-size:12px;font-weight:800;letter-spacing:.12em}.pill{background:#fff9;border:1px solid #fff;padding:8px 12px;border-radius:999px}
+.panel{background:#ffffffd9;border:1px solid #fff;box-shadow:0 20px 60px #9d6d8b20;border-radius:30px;padding:clamp(22px,5vw,42px);backdrop-filter:blur(12px);overflow:hidden}
+.hero{text-align:center;position:relative}.spark{font-size:34px;letter-spacing:12px;margin:4px 0 18px}.eyebrow{display:inline-block;padding:7px 13px;border-radius:999px;background:#fff0b9;color:#765328;font-size:12px;font-weight:900;letter-spacing:.08em}
+h1{font-size:clamp(30px,7vw,54px);line-height:1.15;letter-spacing:-.045em;margin:18px auto 14px;max-width:620px}.gradient{background:linear-gradient(100deg,#ff649c,#ff9b58 48%,#8d77e9);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{color:var(--muted);line-height:1.8;max-width:500px;margin:0 auto 24px;font-size:15px}
+.orbit{display:flex;justify-content:center;gap:10px;margin:22px auto 26px}.orb{width:54px;height:54px;border-radius:18px;display:grid;place-items:center;font-size:25px;transform:rotate(var(--r))}.orb:nth-child(1){background:#ffe0ed;--r:-9deg}.orb:nth-child(2){background:#fff0bd;--r:5deg}.orb:nth-child(3){background:#dff4ff;--r:-4deg}.orb:nth-child(4){background:#e9e0ff;--r:8deg}.orb:nth-child(5){background:#ddf8e6;--r:-5deg}
+.primary{padding:15px 26px;border-radius:16px;background:linear-gradient(100deg,#ff6fa8,#ff9e67);color:white;font-weight:900;box-shadow:0 10px 24px #ff83aa55;transition:transform .2s,box-shadow .2s}.primary:hover{transform:translateY(-2px);box-shadow:0 14px 28px #ff83aa66}.secondary{padding:13px 20px;border-radius:14px;background:#f4eefa;color:#634b75;font-weight:800}
+.note{font-size:12px;color:#9b8b9d;margin-top:16px}
+.hidden{display:none!important}.quiz-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:14px;color:#8b718a;font-size:13px;font-weight:800}.progress-track{height:10px;border-radius:99px;background:#f4e8f0;overflow:hidden;margin-bottom:28px}.progress-fill{height:100%;width:0;background:linear-gradient(90deg,#ff7eb6,#ffb36b,#9e8cff);border-radius:99px;transition:width .35s ease}
+.q-number{font-size:12px;color:#e16e9c;font-weight:900;letter-spacing:.12em}.question{font-size:clamp(22px,5vw,31px);line-height:1.35;margin:10px 0 24px;letter-spacing:-.025em}.options{display:grid;gap:12px}.option{width:100%;text-align:left;padding:16px 18px;border:2px solid #f1e8ef;background:#fff;border-radius:17px;color:var(--ink);display:flex;align-items:center;gap:13px;line-height:1.5;transition:.18s}.option:hover{border-color:#ffc0d8;transform:translateY(-1px);background:#fffafd}.option.selected{border-color:#ff80b1;background:#fff0f6;box-shadow:0 6px 18px #ff9fc322}.letter{flex:0 0 32px;height:32px;border-radius:11px;background:#f7edf4;display:grid;place-items:center;color:#a16c8d;font-weight:900}.option.selected .letter{background:#ff83b2;color:white}.nav{display:flex;justify-content:space-between;gap:12px;margin-top:24px}.nav button{min-width:112px}.nav .primary:disabled{opacity:.38;cursor:not-allowed;transform:none;box-shadow:none}
+.fade{animation:rise .32s ease both}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.result-top{text-align:center}.result-emoji{font-size:58px;margin:8px}.result-kicker{font-size:12px;font-weight:900;letter-spacing:.15em;color:#d56c9b}.result-title{font-size:clamp(29px,7vw,44px);margin:8px 0}.result-tagline{font-size:17px;line-height:1.6;color:#7b5b79;font-weight:800;max-width:560px;margin:0 auto 22px}
+.result-card{border-radius:22px;padding:20px;margin-top:14px;background:#fff}.result-card h3{margin:0 0 9px;font-size:15px}.result-card p{margin:0;color:#6f6174;line-height:1.8;font-size:14px}.result-card.tint1{background:#fff0f6}.result-card.tint2{background:#fff6df}.result-card.tint3{background:#edf8ff}.result-card.tint4{background:#f2edff}.result-card.tint5{background:#edfaef}
+.result-stats{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:20px 0}.stat{background:#fff;border-radius:14px;padding:10px 5px;text-align:center}.stat b{display:block;font-size:18px}.stat span{font-size:10px;color:#88788d}.result-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:24px}.footer{text-align:center;color:#a28fa1;font-size:11px;margin-top:22px;line-height:1.7}
+@media(max-width:520px){.shell{width:min(100% - 20px,760px);padding-top:16px}.panel{border-radius:24px;padding:22px 17px}.option{padding:14px 13px}.nav button{min-width:0;flex:1}.result-stats{gap:5px}.stat{padding:9px 2px}.stat b{font-size:16px}.stat span{font-size:9px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main class="shell">
+  <div class="topline"><span>✦ LITTLE HEART LAB</span><span class="pill">趣味人格研究所 · NO. 01</span></div>
+  <section id="home" class="panel hero fade">
+    <div class="spark">✷ ✦ ✷</div><span class="eyebrow">JUST FOR FUN · 轻松测一测</span>
+    <h1>你容易吸引<br><span class="gradient">什么样的恋人？</span></h1>
+    <p class="lead">从生活习惯到相处节奏，40 个小选择，看看哪种性格的人更容易被你的独特气质吸引。</p>
+    <div class="orbit"><div class="orb">☁️</div><div class="orb">🍊</div><div class="orb">💌</div><div class="orb">🌷</div><div class="orb">✨</div></div>
+    <button class="primary" id="startBtn">开始探索我的恋爱磁场 →</button>
+    <div class="note">约 5–8 分钟 · 没有标准答案 · 结果仅供娱乐</div>
+  </section>
+
+  <section id="quiz" class="panel hidden">
+    <div class="quiz-head"><span>正在探索你的相处偏好</span><span id="counter">01 / 40</span></div>
+    <div class="progress-track"><div id="progress" class="progress-fill"></div></div>
+    <div id="questionArea" class="fade">
+      <div id="qNumber" class="q-number">QUESTION 01</div>
+      <h2 id="questionText" class="question"></h2>
+      <div id="options" class="options"></div>
+    </div>
+    <div class="nav"><button class="secondary" id="prevBtn">← 上一题</button><button class="primary" id="nextBtn" disabled>下一题 →</button></div>
+    <div class="footer">跟着第一直觉选就好，不用想太久 ♡</div>
+  </section>
+
+  <section id="result" class="panel hidden">
+    <div class="result-top fade">
+      <div class="result-emoji" id="resultEmoji">💗</div>
+      <div class="result-kicker">YOUR LOVE MAGNET</div>
+      <h2 class="result-title" id="resultTitle"></h2>
+      <p class="result-tagline" id="tagline"></p>
+    </div>
+    <div id="resultBody"></div>
+    <div class="result-stats" id="stats"></div>
+    <div class="result-actions"><button class="primary" id="shareBtn">分享我的测试结果 ↗</button><button class="secondary" id="restartBtn">重新测试 ↻</button></div>
+    <div class="footer">这是一份轻松的趣味人格测试，不代表真实择偶预测或专业心理结论。<br>喜欢自己，也给彼此一点探索的空间 ✦</div>
+  </section>
+</main>
+<script>
+const questions = [{'q': '周末突然空出半天，你更想？', 'options': [{'text': '找个舒服的地方慢慢待着', 'score': [3, 0, 1, 0, 0]}, {'text': '约人出门，想到哪玩到哪', 'score': [0, 3, 0, 1, 0]}, {'text': '整理计划，把想做的事逐个完成', 'score': [0, 0, 3, 0, 1]}, {'text': '去看展、逛小店，找点新鲜灵感', 'score': [1, 0, 0, 3, 0]}, {'text': '临时起意，走一条没走过的路', 'score': [0, 1, 0, 0, 3]}]}, {'q': '朋友临时改约，你通常？', 'options': [{'text': '没关系，先确认对方是不是遇到事', 'score': [3, 0, 1, 0, 0]}, {'text': '马上提出另一个好玩的方案', 'score': [0, 3, 0, 1, 0]}, {'text': '重新安排时间，确保事情不乱', 'score': [0, 0, 3, 0, 1]}, {'text': '觉得也许能换个更有趣的安排', 'score': [1, 0, 0, 3, 0]}, {'text': '顺势给自己放个自由时间', 'score': [0, 1, 0, 0, 3]}]}, {'q': '收到一条很长的消息，你会？', 'options': [{'text': '认真读完，留意对方的情绪', 'score': [3, 0, 1, 0, 0]}, {'text': '抓住重点，热情地回应', 'score': [0, 3, 0, 1, 0]}, {'text': '梳理信息后逐条回复', 'score': [0, 0, 3, 0, 1]}, {'text': '注意字里行间的小心思', 'score': [1, 0, 0, 3, 0]}, {'text': '看完再按自己的节奏回复', 'score': [0, 1, 0, 0, 3]}]}, {'q': '挑一家新餐厅时，你最在意？', 'options': [{'text': '环境舒适，适合好好聊天', 'score': [3, 0, 1, 0, 0]}, {'text': '气氛热闹，体验有趣', 'score': [0, 3, 0, 1, 0]}, {'text': '评价稳定、菜单清楚', 'score': [0, 0, 3, 0, 1]}, {'text': '装潢特别，有独特故事', 'score': [1, 0, 0, 3, 0]}, {'text': '有没有没吃过的新奇料理', 'score': [0, 1, 0, 0, 3]}]}, {'q': '遇到小麻烦时，你第一反应是？', 'options': [{'text': '先安抚大家，再一起想办法', 'score': [3, 0, 1, 0, 0]}, {'text': '立刻行动，边做边调整', 'score': [0, 3, 0, 1, 0]}, {'text': '分析原因，找最有效的解法', 'score': [0, 0, 3, 0, 1]}, {'text': '换个角度，看看能否变成机会', 'score': [1, 0, 0, 3, 0]}, {'text': '先试试不同方法，不被旧套路限制', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你更喜欢哪种聊天节奏？', 'options': [{'text': '慢慢聊，话题可以很深入', 'score': [3, 0, 1, 0, 0]}, {'text': '想到什么就分享，热闹自然', 'score': [0, 3, 0, 1, 0]}, {'text': '有来有回，信息清晰', 'score': [0, 0, 3, 0, 1]}, {'text': '从一个小细节聊出很多故事', 'score': [1, 0, 0, 3, 0]}, {'text': '轻松随意，不必时时在线', 'score': [0, 1, 0, 0, 3]}]}, {'q': '看到朋友心情低落，你会？', 'options': [{'text': '陪着对方，听他说完', 'score': [3, 0, 1, 0, 0]}, {'text': '带对方出去透透气', 'score': [0, 3, 0, 1, 0]}, {'text': '帮忙拆解问题，找可行办法', 'score': [0, 0, 3, 0, 1]}, {'text': '准备一点小惊喜转移心情', 'score': [1, 0, 0, 3, 0]}, {'text': '给对方空间，需要时再出现', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你做决定时更依赖？', 'options': [{'text': '自己的感受和在意的人', 'score': [3, 0, 1, 0, 0]}, {'text': '直觉与行动带来的反馈', 'score': [0, 3, 0, 1, 0]}, {'text': '事实、比较和逻辑', 'score': [0, 0, 3, 0, 1]}, {'text': '灵感，以及事情的意义', 'score': [1, 0, 0, 3, 0]}, {'text': '好奇心和探索欲', 'score': [0, 1, 0, 0, 3]}]}, {'q': '手机相册里最多的是？', 'options': [{'text': '和重要的人一起的日常', 'score': [3, 0, 1, 0, 0]}, {'text': '活动、旅行和搞怪瞬间', 'score': [0, 3, 0, 1, 0]}, {'text': '截图、备忘和有用资料', 'score': [0, 0, 3, 0, 1]}, {'text': '天空、街景和有氛围的画面', 'score': [1, 0, 0, 3, 0]}, {'text': '路上遇见的奇怪有趣事物', 'score': [0, 1, 0, 0, 3]}]}, {'q': '一个理想的约会安排更像？', 'options': [{'text': '一起做饭、散步，舒服自在', 'score': [3, 0, 1, 0, 0]}, {'text': '去游乐场或参加有趣活动', 'score': [0, 3, 0, 1, 0]}, {'text': '一起完成计划好的体验', 'score': [0, 0, 3, 0, 1]}, {'text': '看日落、听音乐，留下纪念', 'score': [1, 0, 0, 3, 0]}, {'text': '随机选个目的地去探索', 'score': [0, 1, 0, 0, 3]}]}, {'q': '别人最常夸你？', 'options': [{'text': '很会照顾人的感受', 'score': [3, 0, 1, 0, 0]}, {'text': '有活力，能带动气氛', 'score': [0, 3, 0, 1, 0]}, {'text': '靠谱，做事有条理', 'score': [0, 0, 3, 0, 1]}, {'text': '有想法，审美或表达特别', 'score': [1, 0, 0, 3, 0]}, {'text': '独立，接受新事物很快', 'score': [0, 1, 0, 0, 3]}]}, {'q': '计划被打乱时，你会？', 'options': [{'text': '先照顾大家的感受', 'score': [3, 0, 1, 0, 0]}, {'text': '觉得变化也挺刺激', 'score': [0, 3, 0, 1, 0]}, {'text': '迅速重排优先级', 'score': [0, 0, 3, 0, 1]}, {'text': '看看意外会带来什么', 'score': [1, 0, 0, 3, 0]}, {'text': '干脆换个方向试试', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你更愿意收到哪种小礼物？', 'options': [{'text': '一张手写卡片或暖心小物', 'score': [3, 0, 1, 0, 0]}, {'text': '能马上一起体验的活动', 'score': [0, 3, 0, 1, 0]}, {'text': '实用、刚好解决需求的东西', 'score': [0, 0, 3, 0, 1]}, {'text': '有故事、有设计感的纪念品', 'score': [1, 0, 0, 3, 0]}, {'text': '新奇的小玩意或体验券', 'score': [0, 1, 0, 0, 3]}]}, {'q': '在多人聚会里，你通常？', 'options': [{'text': '留意落单的人，照顾气氛', 'score': [3, 0, 1, 0, 0]}, {'text': '主动开启话题和游戏', 'score': [0, 3, 0, 1, 0]}, {'text': '和熟悉的人聊得深入', 'score': [0, 0, 3, 0, 1]}, {'text': '分享有趣观察和新话题', 'score': [1, 0, 0, 3, 0]}, {'text': '自在地在不同小圈子间走动', 'score': [0, 1, 0, 0, 3]}]}, {'q': '面对意见不同的人，你会？', 'options': [{'text': '先理解对方为什么这么想', 'score': [3, 0, 1, 0, 0]}, {'text': '轻松表达，不让气氛僵住', 'score': [0, 3, 0, 1, 0]}, {'text': '讨论依据，找共同点', 'score': [0, 0, 3, 0, 1]}, {'text': '寻找双方都没想到的新角度', 'score': [1, 0, 0, 3, 0]}, {'text': '尊重差异，不强求一致', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你最享受的成就感来自？', 'options': [{'text': '让在乎的人感到安心', 'score': [3, 0, 1, 0, 0]}, {'text': '把想法变成真实行动', 'score': [0, 3, 0, 1, 0]}, {'text': '解决一个复杂问题', 'score': [0, 0, 3, 0, 1]}, {'text': '创造出有个人风格的作品', 'score': [1, 0, 0, 3, 0]}, {'text': '发现自己以前没见过的世界', 'score': [0, 1, 0, 0, 3]}]}, {'q': '如果有一天完全不用赶时间，你会？', 'options': [{'text': '和喜欢的人慢慢度过', 'score': [3, 0, 1, 0, 0]}, {'text': '安排一场说走就走的小活动', 'score': [0, 3, 0, 1, 0]}, {'text': '做一直想完成的计划', 'score': [0, 0, 3, 0, 1]}, {'text': '写点东西、拍照或听音乐', 'score': [1, 0, 0, 3, 0]}, {'text': '随心探索，走到哪算哪', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你处理待办事项的方式？', 'options': [{'text': '先处理和别人有关的事', 'score': [3, 0, 1, 0, 0]}, {'text': '挑最有意思的先做', 'score': [0, 3, 0, 1, 0]}, {'text': '列清单，按优先级完成', 'score': [0, 0, 3, 0, 1]}, {'text': '看灵感来了先做哪件', 'score': [1, 0, 0, 3, 0]}, {'text': '保留弹性，边走边调整', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你更容易被哪种细节打动？', 'options': [{'text': '对方记得你随口说过的话', 'score': [3, 0, 1, 0, 0]}, {'text': '对方愿意陪你尝试新体验', 'score': [0, 3, 0, 1, 0]}, {'text': '对方说到做到、值得信任', 'score': [0, 0, 3, 0, 1]}, {'text': '对方认真准备的小巧思', 'score': [1, 0, 0, 3, 0]}, {'text': '对方尊重你的节奏和空间', 'score': [0, 1, 0, 0, 3]}]}, {'q': '遇到陌生环境，你会？', 'options': [{'text': '先找到让自己安心的熟悉感', 'score': [3, 0, 1, 0, 0]}, {'text': '主动认识人，快速融入', 'score': [0, 3, 0, 1, 0]}, {'text': '观察规则和环境，再行动', 'score': [0, 0, 3, 0, 1]}, {'text': '寻找特别的角落和故事', 'score': [1, 0, 0, 3, 0]}, {'text': '四处看看，享受未知感', 'score': [0, 1, 0, 0, 3]}]}, {'q': '朋友请你帮忙出主意，你会？', 'options': [{'text': '先问清楚对方真正的顾虑', 'score': [3, 0, 1, 0, 0]}, {'text': '给几个可立刻尝试的点子', 'score': [0, 3, 0, 1, 0]}, {'text': '分析利弊，推荐稳妥方案', 'score': [0, 0, 3, 0, 1]}, {'text': '提供不一样的创意方向', 'score': [1, 0, 0, 3, 0]}, {'text': '鼓励对方按自己的想法试试', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你更喜欢哪种日常陪伴？', 'options': [{'text': '不用多说也能安心相处', 'score': [3, 0, 1, 0, 0]}, {'text': '一起运动、玩游戏或出门', 'score': [0, 3, 0, 1, 0]}, {'text': '各自忙碌，约好时间交流', 'score': [0, 0, 3, 0, 1]}, {'text': '分享音乐、电影和灵感', 'score': [1, 0, 0, 3, 0]}, {'text': '彼此独立，也常有新话题', 'score': [0, 1, 0, 0, 3]}]}, {'q': '看到一件喜欢但不急需的东西，你会？', 'options': [{'text': '想想它能不能让生活更温暖', 'score': [3, 0, 1, 0, 0]}, {'text': '喜欢就先体验，别想太多', 'score': [0, 3, 0, 1, 0]}, {'text': '比较一下再决定', 'score': [0, 0, 3, 0, 1]}, {'text': '被设计或故事打动就收藏', 'score': [1, 0, 0, 3, 0]}, {'text': '研究它有没有新奇用途', 'score': [0, 1, 0, 0, 3]}]}, {'q': '情绪有点低落时，你更希望？', 'options': [{'text': '有人温柔地陪伴', 'score': [3, 0, 1, 0, 0]}, {'text': '有人拉自己出去活动', 'score': [0, 3, 0, 1, 0]}, {'text': '有时间独处并理清思路', 'score': [0, 0, 3, 0, 1]}, {'text': '听音乐或做点喜欢的创作', 'score': [1, 0, 0, 3, 0]}, {'text': '换个环境，接触新事物', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你最不喜欢哪种相处状态？', 'options': [{'text': '彼此冷漠，不关心感受', 'score': [3, 0, 1, 0, 0]}, {'text': '总是沉闷，没有互动', 'score': [0, 3, 0, 1, 0]}, {'text': '承诺模糊，沟通混乱', 'score': [0, 0, 3, 0, 1]}, {'text': '生活没有新意和表达', 'score': [1, 0, 0, 3, 0]}, {'text': '被过度安排，没有空间', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你在团队里更像？', 'options': [{'text': '稳定大家情绪的支持者', 'score': [3, 0, 1, 0, 0]}, {'text': '推动进度的行动派', 'score': [0, 3, 0, 1, 0]}, {'text': '负责规划和检查的人', 'score': [0, 0, 3, 0, 1]}, {'text': '提出创意和新点子的人', 'score': [1, 0, 0, 3, 0]}, {'text': '灵活补位、探索新办法的人', 'score': [0, 1, 0, 0, 3]}]}, {'q': '看到天气突然放晴，你会？', 'options': [{'text': '想和重要的人分享这份好心情', 'score': [3, 0, 1, 0, 0]}, {'text': '马上出门晒晒太阳', 'score': [0, 3, 0, 1, 0]}, {'text': '看看今天的安排能否调整', 'score': [0, 0, 3, 0, 1]}, {'text': '找个好看的地方拍照', 'score': [1, 0, 0, 3, 0]}, {'text': '去附近没去过的地方走走', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你更愿意学习哪种新技能？', 'options': [{'text': '沟通、倾听或生活照料', 'score': [3, 0, 1, 0, 0]}, {'text': '舞蹈、运动或户外技能', 'score': [0, 3, 0, 1, 0]}, {'text': '编程、语言或专业知识', 'score': [0, 0, 3, 0, 1]}, {'text': '摄影、绘画或音乐', 'score': [1, 0, 0, 3, 0]}, {'text': '旅行技能或新奇手艺', 'score': [0, 1, 0, 0, 3]}]}, {'q': '朋友迟迟没回复，你通常？', 'options': [{'text': '会关心对方是不是太忙或不舒服', 'score': [3, 0, 1, 0, 0]}, {'text': '先去做自己的事，晚点再聊', 'score': [0, 3, 0, 1, 0]}, {'text': '不多猜测，等对方有空回复', 'score': [0, 0, 3, 0, 1]}, {'text': '想到是不是有趣的话题可以补充', 'score': [1, 0, 0, 3, 0]}, {'text': '觉得每个人都需要自己的时间', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你喜欢怎样庆祝一个小成功？', 'options': [{'text': '和亲近的人分享一顿饭', 'score': [3, 0, 1, 0, 0]}, {'text': '约朋友玩个痛快', 'score': [0, 3, 0, 1, 0]}, {'text': '记录下来，再规划下一步', 'score': [0, 0, 3, 0, 1]}, {'text': '做点有仪式感的纪念', 'score': [1, 0, 0, 3, 0]}, {'text': '奖励自己一次新体验', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你更欣赏哪种幽默？', 'options': [{'text': '温柔、不让人尴尬的幽默', 'score': [3, 0, 1, 0, 0]}, {'text': '反应快、能炒热气氛', 'score': [0, 3, 0, 1, 0]}, {'text': '机智、有逻辑的冷幽默', 'score': [0, 0, 3, 0, 1]}, {'text': '有梗、有画面感的表达', 'score': [1, 0, 0, 3, 0]}, {'text': '古灵精怪、出其不意', 'score': [0, 1, 0, 0, 3]}]}, {'q': '如果一起养一盆植物，你会？', 'options': [{'text': '记得浇水，关注它的状态', 'score': [3, 0, 1, 0, 0]}, {'text': '给它换个有趣的位置', 'score': [0, 3, 0, 1, 0]}, {'text': '查清楚习性，按规律照料', 'score': [0, 0, 3, 0, 1]}, {'text': '搭配花盆，布置好看的角落', 'score': [1, 0, 0, 3, 0]}, {'text': '尝试不同种类，观察变化', 'score': [0, 1, 0, 0, 3]}]}, {'q': '面对一项长期目标，你会？', 'options': [{'text': '找伙伴互相鼓励', 'score': [3, 0, 1, 0, 0]}, {'text': '设定挑战，让过程有趣', 'score': [0, 3, 0, 1, 0]}, {'text': '拆成阶段，持续追踪', 'score': [0, 0, 3, 0, 1]}, {'text': '加入个人创意，让它有意义', 'score': [1, 0, 0, 3, 0]}, {'text': '边实践边探索新的可能', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你更喜欢哪种消息通知？', 'options': [{'text': '一句简单的问候', 'score': [3, 0, 1, 0, 0]}, {'text': '一个有趣的活动邀请', 'score': [0, 3, 0, 1, 0]}, {'text': '明确的时间地点和安排', 'score': [0, 0, 3, 0, 1]}, {'text': '一首歌或一张特别的图片', 'score': [1, 0, 0, 3, 0]}, {'text': '一个新鲜话题或奇妙发现', 'score': [0, 1, 0, 0, 3]}]}, {'q': '别人向你倾诉时，你最常做？', 'options': [{'text': '认真听，回应感受', 'score': [3, 0, 1, 0, 0]}, {'text': '陪对方做点事转换心情', 'score': [0, 3, 0, 1, 0]}, {'text': '帮忙厘清重点和选择', 'score': [0, 0, 3, 0, 1]}, {'text': '用故事或比喻打开思路', 'score': [1, 0, 0, 3, 0]}, {'text': '不急着给答案，尊重对方节奏', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你理想中的生活空间？', 'options': [{'text': '柔软舒适，适合休息和相聚', 'score': [3, 0, 1, 0, 0]}, {'text': '明亮活泼，方便活动', 'score': [0, 3, 0, 1, 0]}, {'text': '整洁有序，东西好找', 'score': [0, 0, 3, 0, 1]}, {'text': '有艺术感，摆着喜欢的收藏', 'score': [1, 0, 0, 3, 0]}, {'text': '布局灵活，常常换点新鲜感', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你更喜欢怎样的惊喜？', 'options': [{'text': '对方记得你的小习惯', 'score': [3, 0, 1, 0, 0]}, {'text': '突然收到一起出发的邀请', 'score': [0, 3, 0, 1, 0]}, {'text': '惊喜安排周到又不混乱', 'score': [0, 0, 3, 0, 1]}, {'text': '充满巧思、值得回味', 'score': [1, 0, 0, 3, 0]}, {'text': '完全没预料到的新体验', 'score': [0, 1, 0, 0, 3]}]}, {'q': '面对新观点，你会？', 'options': [{'text': '想想它会怎样影响身边的人', 'score': [3, 0, 1, 0, 0]}, {'text': '先试试看有没有趣', 'score': [0, 3, 0, 1, 0]}, {'text': '查资料，判断是否可靠', 'score': [0, 0, 3, 0, 1]}, {'text': '联想出更多可能性', 'score': [1, 0, 0, 3, 0]}, {'text': '保持开放，继续探索', 'score': [0, 1, 0, 0, 3]}]}, {'q': '你觉得舒服的关系节奏是？', 'options': [{'text': '稳定、温暖、彼此关心', 'score': [3, 0, 1, 0, 0]}, {'text': '常有互动，一起创造回忆', 'score': [0, 3, 0, 1, 0]}, {'text': '坦诚清楚，互相支持成长', 'score': [0, 0, 3, 0, 1]}, {'text': '有浪漫感，也有精神交流', 'score': [1, 0, 0, 3, 0]}, {'text': '亲近但不失各自的自由', 'score': [0, 1, 0, 0, 3]}]}, {'q': '如果给今天留一句总结，你会选？', 'options': [{'text': '平凡日子里有人惦记就很好', 'score': [3, 0, 1, 0, 0]}, {'text': '今天又解锁了新体验', 'score': [0, 3, 0, 1, 0]}, {'text': '一步一步，事情都在变好', 'score': [0, 0, 3, 0, 1]}, {'text': '生活需要一点诗意和惊喜', 'score': [1, 0, 0, 3, 0]}, {'text': '世界很大，明天继续探索', 'score': [0, 1, 0, 0, 3]}]}];
+const dimensions = ["温暖陪伴","阳光行动","理性默契","浪漫灵感","自由探索"];
+const types = [
+ {name:"温柔陪伴型",emoji:"🧸",tag:"你像一盏温暖的小灯，容易吸引愿意认真倾听、把日常过成安心港湾的人。",traits:"细腻、稳定、重视感受，擅长在平凡日子里建立信任。你通常会留意别人忽略的小细节，也愿意给关系足够的耐心。",reason:"你的回答里有很多照顾感受、认真倾听和珍惜日常的倾向。容易与你互相欣赏的，是愿意回应情绪、重视承诺，也懂得温柔表达的人。",advantage:"你能让人放下紧绷，感到被看见。你的温柔不是没有主见，而是一种让关系更有韧性的能力。",easter:"隐藏彩蛋：你可能是朋友圈里的「人形充电站」。记得，你也值得被好好照顾。",quote:"「最好的心动，是和你在一起时，连普通的一天都变得柔软。」"},
+ {name:"阳光行动型",emoji:"🍊",tag:"你自带明亮能量，容易吸引愿意一起出发、把喜欢变成行动的人。",traits:"热情、直接、有感染力，喜欢把想法变成体验。你看重互动，也常常能为平淡生活打开一扇新窗口。",reason:"你的选择展现出行动力、开放表达和体验导向。与你合拍的人往往愿意主动创造回忆，也能在热闹之外认真回应你的想法。",advantage:"你能把「改天吧」变成「现在就去」。这种推动生活向前的能量，会让身边的人更愿意尝试。",easter:"隐藏彩蛋：你可能拥有「临时组局成功率」加成。别忘了也给自己留一个安静充电日。",quote:"「和你一起，生活不是等待发生，而是随时可以开始。」"},
+ {name:"理性默契型",emoji:"🪐",tag:"你的可靠与清晰很有吸引力，容易吸引尊重边界、沟通坦诚的人。",traits:"冷静、有条理、重视事实与兑现。你喜欢把复杂的事理清楚，也在意彼此是否能稳定地支持成长。",reason:"你的答案里常出现规划、分析、明确沟通和长期投入。容易与你互相欣赏的人，通常做事靠谱、表达清楚，并愿意一起解决问题。",advantage:"你能把模糊变清晰，把目标拆成可以实现的小步骤。你的可靠感，是一种很珍贵的安全感。",easter:"隐藏彩蛋：你的脑内可能自带待办清单。偶尔允许计划外的小惊喜，也会很不错。",quote:"「不必猜来猜去，认真沟通本身就是一种浪漫。」"},
+ {name:"浪漫灵感型",emoji:"🎨",tag:"你的细节感和想象力很迷人，容易吸引愿意分享灵感、珍惜仪式感的人。",traits:"感受丰富、观察细致、富有创造力。你会从小事里发现意义，也喜欢让生活拥有自己的颜色和故事。",reason:"你对巧思、氛围、表达和独特体验比较敏感。与你合拍的人通常愿意认真准备、分享精神世界，也欣赏你看待世界的方式。",advantage:"你擅长发现生活里微小却闪亮的部分，并把普通经历变成值得记住的故事。",easter:"隐藏彩蛋：你的生活可能自带电影配乐。偶尔把灵感落地，快乐会更有形状。",quote:"「你认真收藏的每个小瞬间，都在悄悄发光。」"},
+ {name:"自由探索型",emoji:"🦋",tag:"你的独立和好奇心很有魅力，容易吸引尊重空间、乐于共同探索的人。",traits:"开放、灵活、独立，喜欢保留自己的节奏。你愿意接触新事物，也尊重每个人都有不同的生活半径。",reason:"你的选择体现出好奇心、弹性和对个人空间的重视。与你合拍的人会愿意一起探索，也能理解亲近不等于时时刻刻黏在一起。",advantage:"你能为关系带来新鲜视角，也懂得让彼此保有成长的空间。独立并不妨碍你建立深刻连接。",easter:"隐藏彩蛋：你可能是「地图上总有一个新标记」的人。下一次探索，也可以邀请信任的人同行。",quote:"「喜欢不是把世界缩小，而是一起把世界看得更大。」"}
+];
+let current=0, answers=Array(questions.length).fill(null);
+const $=id=>document.getElementById(id);
+function show(section){["home","quiz","result"].forEach(id=>$(id).classList.toggle("hidden",id!==section));window.scrollTo({top:0,behavior:"smooth"});}
+function renderQuestion(){
+ const item=questions[current];$("counter").textContent=String(current+1).padStart(2,"0")+" / "+questions.length;
+ $("progress").style.width=((current+1)/questions.length*100)+"%";
+ $("qNumber").textContent="QUESTION "+String(current+1).padStart(2,"0");
+ $("questionText").textContent=item.q;
+ $("options").innerHTML="";
+ item.options.forEach((opt,i)=>{
+  const btn=document.createElement("button");btn.className="option"+(answers[current]===i?" selected":"");
+  const letter=document.createElement("span");letter.className="letter";letter.textContent=String.fromCharCode(65+i);
+  const label=document.createElement("span");label.textContent=opt.text;btn.append(letter,label);
+  btn.addEventListener("click",()=>{answers[current]=i;renderQuestion();});
+  $("options").appendChild(btn);
+ });
+ $("prevBtn").disabled=current===0;$("prevBtn").style.opacity=current===0?".4":"1";
+ $("nextBtn").disabled=answers[current]===null;
+ $("nextBtn").textContent=current===questions.length-1?"查看我的结果 ✨":"下一题 →";
+ const area=$("questionArea");area.classList.remove("fade");void area.offsetWidth;area.classList.add("fade");
+}
+function calculate(){
+ const scores=[0,0,0,0,0];
+ answers.forEach((choice,qi)=>{const v=questions[qi].options[choice].score;v.forEach((n,i)=>scores[i]+=n);});
+ // Stable tie-break: prefer the dimension with the strongest answer count, then fixed order.
+ let max=Math.max(...scores), winner=scores.indexOf(max);
+ const totals=scores.map((s,i)=>({s,i})).filter(x=>x.s===max);
+ if(totals.length>1){let counts=[0,0,0,0,0];answers.forEach((a,qi)=>counts[questions[qi].options[a].score.indexOf(3)]++);winner=totals.sort((a,b)=>counts[b.i]-counts[a.i]||a.i-b.i)[0].i;}
+ return {winner,scores};
+}
+function showResult(){
+ const {winner,scores}=calculate(),t=types[winner];
+ $("resultEmoji").textContent=t.emoji;$("resultTitle").textContent="你的吸引力类型："+t.name;$("tagline").textContent=t.quote;
+ const cards=[["性格特点",t.traits],["为什么容易吸引这种人？",t.reason],["你的隐藏优势",t.advantage],["趣味彩蛋",t.easter]];
+ $("resultBody").innerHTML="";
+ cards.forEach((c,i)=>{const box=document.createElement("div");box.className="result-card tint"+(i+1);const h=document.createElement("h3");h.textContent=c[0];const p=document.createElement("p");p.textContent=c[1];box.append(h,p);$("resultBody").append(box);});
+ $("stats").innerHTML=scores.map((s,i)=>`<div class="stat"><b>${s}</b><span>${dimensions[i]}</span></div>`).join("");
+ show("result");
+}
+$("startBtn").addEventListener("click",()=>{current=0;answers=Array(questions.length).fill(null);show("quiz");renderQuestion();});
+$("prevBtn").addEventListener("click",()=>{if(current>0){current--;renderQuestion();}});
+$("nextBtn").addEventListener("click",()=>{if(answers[current]===null)return;if(current<questions.length-1){current++;renderQuestion();}else showResult();});
+$("restartBtn").addEventListener("click",()=>{current=0;answers=Array(questions.length).fill(null);show("home");});
+$("shareBtn").addEventListener("click",async()=>{
+ const {winner}=calculate(),t=types[winner];
+ const shareText=`我测出的恋爱吸引力类型是「${t.name}」${t.emoji}\n${t.quote}\n来测测你容易吸引什么样的恋人！`;
+ try{if(navigator.share){await navigator.share({title:"你容易吸引什么样的恋人",text:shareText});}
+ else if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(shareText);$("shareBtn").textContent="结果文案已复制 ✓";}
+ else{window.prompt("复制你的测试结果：",shareText);}}
+ catch(e){if(e.name!=="AbortError")window.prompt("复制你的测试结果：",shareText);}
+});
+</script>
+</body>
+</html>
